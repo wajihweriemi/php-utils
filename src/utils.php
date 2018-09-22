@@ -13,6 +13,6 @@ if (!function_exists('multidim_array_unique')) {
      */
     function multidim_array_unique($array, $key)
     {
-    	return ArrayUtils::mutlidimArrayUnique($array, $key);
+    	return ArrayUtils::multidimArrayUnique($array, $key);
     }
 }
