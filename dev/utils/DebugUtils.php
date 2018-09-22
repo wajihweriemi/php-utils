@@ -1,6 +1,6 @@
 <?php
 
-namespace WJH\Utils;
+namespace WJH\Dev\Utils;
 
 /**
  * DebugUtils

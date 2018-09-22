@@ -12,10 +12,18 @@
     ],
     "autoload": {
         "psr-4": {
-            "WJH\\Utils\\": "src/Utils/"
+            "WJH\\Utils\\": "src/utils/"
         },
         "files": [
             "src/utils.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WJH\\Dev\\Utils\\": "dev/utils/"
+        },
+        "files": [
+            "dev/utils.php"
         ]
     },
     "require": {

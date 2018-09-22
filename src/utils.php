@@ -1,20 +1,7 @@
 <?php
 
-use WJH\Utils\DebugUtils;
 use WJH\Utils\StringUtils;
 use WJH\Utils\ArrayUtils;
-
-if (!function_exists('sd')) {
-    /**
-     * dump 0..n vars
-     *
-     * @param mixed $vars
-     */
-    function sd(...$vars)
-    {
-        return DebugUtils::Sd(...$vars);
-    }
-}
 
 if (!function_exists('humanize_duration')) {
     /**
