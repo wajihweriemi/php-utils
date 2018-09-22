@@ -10,14 +10,14 @@ namespace WJH\Utils;
 class ArrayUtils
 {
     /**
-     * MultidimArrayUnique
+     * multidimArrayUnique Perform an array unique based by key
      *
      * @param array  $array
      * @param string $key
      *
      * @return array
      */
-    public static function MultidimArrayUnique(array $array, $key)
+    public static function multidimArrayUnique(array $array, $key)
     {
         $tempArray = [];
         $i = 0;
