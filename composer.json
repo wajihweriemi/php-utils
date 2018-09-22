@@ -1,27 +1,28 @@
 {
-  "name": "wajihweriemi/php-utils",
-  "description": "A Collection of useful php helpers functions.",
-  "type": "library",
-  "license": "MIT",
-  "version": "0.1.0",
-  "authors": [
-    {
-      "name": "Wajih WERIEMI",
-      "email": "wajih@evensys.tn"
-    }
-  ],
-  "autoload": {
-    "psr-4": {
-      "WJH\\Utils\\": "src/Utils/"
+    "name": "wajihweriemi/php-utils",
+    "description": "A Collection of useful php helpers functions.",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Wajih WERIEMI",
+            "email": "wajih@evensys.tn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WJH\\Utils\\": "src/Utils/"
+        },
+        "files": [
+            "src/utils.php"
+        ]
     },
-    "files": [
-      "src/utils.php"
-    ]
-  },
-  "require": {
-    "php": ">7.0"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^7.3"
-  }
+    "require": {
+        "php": ">7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.3",
+        "kint-php/kint": "^2.2"
+    }
 }

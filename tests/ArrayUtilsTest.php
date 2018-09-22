@@ -33,8 +33,8 @@ class ArrayUtilsTest extends TestCase
         $array = ArrayUtils::multidimArrayUnique($array, 'id');
 
         $this->assertEquals(
-        	2,
-        	count($array)
+            2,
+            count($array)
         );
         $this->assertEquals([
             [
